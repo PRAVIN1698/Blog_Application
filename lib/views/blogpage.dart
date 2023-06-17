@@ -97,7 +97,7 @@ class _BlogPageState extends State<BlogPage> {
           });
         }
 
-        setState(() {}); // Refresh the UI
+        setState(() {});
       }
     }
   }*/

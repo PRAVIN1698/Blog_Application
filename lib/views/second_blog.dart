@@ -12,7 +12,7 @@ class SecondBlog extends StatefulWidget {
 }
 
 class _SecondBlogState extends State<SecondBlog> {
-  late String paragraph = ''; // Initialize with an empty string
+  late String paragraph = '';
 
   ApiFetcher apiFetcher = ApiFetcher();
 

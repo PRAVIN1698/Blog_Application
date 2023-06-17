@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'api_fetcher.dart';
 
 class FirstBlog extends StatefulWidget {
-  final String imageUrl; // Add the imageUrl parameter to the constructor
+  final String imageUrl;
   final String heading;
 
   FirstBlog({required this.imageUrl, required this.heading});
@@ -12,7 +12,7 @@ class FirstBlog extends StatefulWidget {
 }
 
 class _FirstBlogState extends State<FirstBlog> {
-  late String paragraph1 = ''; // Initialize with an empty string
+  late String paragraph1 = '';
 
   ApiFetcher apiFetcher = ApiFetcher();
 

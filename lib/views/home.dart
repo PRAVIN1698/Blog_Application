@@ -30,7 +30,7 @@ class _HomeState extends State<Home> {
   @override
   void initState() {
     super.initState();
-    fetchData(); // Call the function here
+    fetchData();
   }
 
   Future<void> fetchData() async {

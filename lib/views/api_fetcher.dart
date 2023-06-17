@@ -89,8 +89,6 @@ class ApiFetcher {
           gridviewurls.add(imageUrl);
         }
       }
-
-      /*}*/
     } else {
       print('Failed to fetch news data');
     }
@@ -171,7 +169,6 @@ class ApiFetcher {
         }
 
         if (imageFirstBlogUrl != null && paragraphContent != null) {
-          // Both image and paragraph data are found, return the result
           return {'image': imageFirstBlogUrl, 'paragraph': paragraphContent};
         }
       }
@@ -205,7 +202,6 @@ class ApiFetcher {
         }
 
         if (imageSecondBlogUrl != null && paragraphContent != null) {
-          // Both image and paragraph data are found, return the result
           return {'image': imageSecondBlogUrl, 'paragraph': paragraphContent};
         }
       }
